@@ -62,6 +62,42 @@ class DashboardView extends StatelessWidget {
               ),
             ),
           ),
+          Card(
+            child: InkWell(
+              onTap: () {},
+              child: const Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: <Widget>[
+                  Icon(Icons.add, size: 48),
+                  Text('Counter Bloc'),
+                ],
+              ),
+            ),
+          ),
+          Card(
+            child: InkWell(
+              onTap: () {},
+              child: const Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: <Widget>[
+                  Icon(Icons.calculate, size: 48),
+                  Text('Arithmetic Bloc'),
+                ],
+              ),
+            ),
+          ),
+          Card(
+            child: InkWell(
+              onTap: () {},
+              child: const Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: <Widget>[
+                  Icon(Icons.person, size: 48),
+                  Text('Student Bloc'),
+                ],
+              ),
+            ),
+          ),
         ],
       ),
     );
